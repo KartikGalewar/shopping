@@ -7,8 +7,7 @@ import "./Styles.css";
 function Home() {
   const {
     state: { products },
-    productstate: { byStock, byFastDelivery, byRating, sort, searchQuery },
-    dispatch,
+    productstate: { byStock, byFastDelivery, byRating, sort, searchQuery }
   } = CartState();
 
   console.log("from Home js",byRating);
